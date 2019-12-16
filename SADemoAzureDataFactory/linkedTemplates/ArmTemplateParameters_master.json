@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "SADemoAzureDataFactory"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"InputLoad1_password": {
+			"value": ""
+		},
+		"InputLoad1_properties_typeProperties_host": {
+			"value": "C:\\Users\\v-anchau\\Desktop\\InputPOC"
+		},
+		"InputLoad1_properties_typeProperties_userId": {
+			"value": "saint.anger@sademoazureserver"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
